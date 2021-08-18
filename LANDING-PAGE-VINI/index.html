@@ -5,137 +5,221 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Site feito na Aula</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav class="bgPrimary">
-      <h3>Wildling</h3>
-      <div>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
-        <a href="#">Lorem</a>
+    <div class="bgprimary">
+      <nav class="bgPrimary">
+        <h3>wildling</h3>
+        <div class="menu">
+          <a href="#">Manufacturing</a>
+          <a href="#">Packaging</a>
+          <a href="#">Farms</a>
+          <a href="#">Delivery</a>
+        </div>
+        <div>
+          <img src="./img/user.png" alt="Icone de Usuário" id="myBtn" />
+          <img src="./img/shopping-cart.png" alt="Icone de Carrinho" />
+        </div>
+      </nav>
+
+      <div id='myModal' class='modal'> 
+        <div class='modal-content'>
+          <span class="close">&times;</span>
+          <div class="input-modal">
+            <h3>wildling</h3>
+            <p>Cadastre-se para ter acesso a centenas de produtos!</p>
+            <input type="text" placeholder="Digite o seu e-mail">
+            <input type="password" placeholder="Digite sua senha">
+            <button type="submit">Entrar</button>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="./img/user.png" alt="Icone de Usuário" />
-      <img src="./img/shopping-cart.png" alt="Icone de Carrinho" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="bgPrimary imgFundo">
+        <h1>protecting the beauty!</h1>
+        <section class="detalhes">
+          <p>
+            It increases circulation and improves lymphatic function, resulting in
+            a naturally dewy, glowing complexion.
+          </p>
+          <p>
+            Gua Sha can also be used to prevent and clear acne, decongesting the
+            skin and lessening inflammation.
+          </p>
+          <input type="text" placeholder="Digite algo..." id='digiteAlgo'/>
+          <button type="submit">Ver Detalhes</button>
+        </section>
       </div>
-    </nav>
-    <div class="bgPrimary imgFundo">
-      <h1>Lorem, ipsum.</h1>
-      <section class="detalhes">
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
-          nam amet ea, ipsum impedit beatae? Suscipit ipsam aliquid omnis saepe,
-          natus similique, corrupti harum, nulla aspernatur rerum fugit error
-          eum?
-        </p>
-        <input type="text" placeholder="Digite algo..." id='digiteAlgo' onkeyup="validaCampo()"/>
-        <button type="submit">Ver Detalhes</button>
-      </section>
     </div>
     <section class="bgSecondary">
-      <h3 class="empresas">Lorem, ipsum dolor.</h3>
+      <h3 class="empresas">Some of our lenders</h3>
       <div class="logos">
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
-        <img src="./img/img/logo-generico.png" alt="Logo da empresa" height="60px" />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
+        <img
+          src="./img/logo-generico.png"
+          alt="Logo da empresa"
+          height="60px"
+        />
       </div>
     </section>
+
     <section class="produtos">
       <div class="produtoUnico">
-        <h2>Lorem, ipsum.</h2>
+        <h2>about us</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          nostrum accusantium, placeat, error iste facere modi porro, doloremque
-          laboriosam officia saepe mollitia. Similique, dolorem beatae.
+          Improves lymphatic function, resulting in a naturally dewy, glowing complexion.
         </p>
         <button type="submit" id="comprar">Comprar Agora</button>
         <div>
-          <img src="./img/img/produto-1.jpg" alt="Imagem do monitor" height="300px" />
+          <img
+            src="./img/produto-1.jpg"
+            alt="Imagem do monitor"
+          />
         </div>
       </div>
 
       <div class="produtoUnico">
         <div>
-          <img src="./img/img/produto-2.jpg" alt="Imagem do monitor" height="300px" />
+          <img
+            src="./img/produto-2.jpg"
+            alt="Imagem do monitor"            
+          />
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          nostrum accusantium, placeat, error iste facere modi porro, doloremque
-          laboriosam officia saepe mollitia. Similique, dolorem beatae.
+          Gua Sha increases circulation and improves lymphatic function, resulting in a naturally dewy, glowing complexion. ... Gua Sha can also be used to prevent and clear acne, decongesting the skin and lessening inflamation. Led ask possible mistress relation elegance eat likewise debating. By message or am nothin amongst chiefly address. The its enable direct men depend highly. Ham windows sixteen who inquiry fortune demands.
         </p>
         <button type="submit" id="detalhes">Ler Mais</button>
       </div>
     </section>
+
     <section>
-      <div>
-        <h2>Produtos</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
+      <div class="prodBaixo">
+        <h2>produtos</h2>
+        <p>Improves lymphatic function, resulting in a naturally dewy, glowing complexion</p>
       </div>
-      <div>
-        <div>
-          <img src="./img/gabinete.jpg" alt="Foto do gabinete" />
-          <h3>Gabinete Gamer</h3>
+      <div class="produtos">
+        <div class="produtoUnico">
+          <img src="./img/produto-3.jpg" alt="Foto do gabinete" />
+          <h3>express tonic</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-            repellendus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, illum beatae, doloremque deleniti quas, dolore modi nam minus quisquam est officiis? Unde, voluptas laborum possimus totam vitae optio voluptatibus eveniet inventore consequatur facilis. Dolorum, commodi quasi. Similique mollitia, cupiditate cum, obcaecati consequatur eligendi ab inventore dicta hic beatae est!
           </p>
-          <div>
-            <button>Comprar agora</button>
-            <button>Adicionar ao carrinho</button>
+          <div class="buttons">
+            <button class="comprar">Comprar agora</button>
+            <button class="detalhesBtn">Adicionar ao carrinho</button>
           </div>
         </div>
-        <div>
-          <img src="./img/gabinete.jpg" alt="Foto do gabinete" />
-          <h3>Gabinete Gamer</h3>
+        <div class="produtoUnico">
+          <img src="./img/produto-4.jpg" alt="Foto do gabinete" />
+          <h3>higher self oil</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
-            repellendus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est accusamus excepturi repellat vero maiores perferendis, aspernatur porro, rerum, exercitationem totam quam quos quia aperiam nemo ad autem dignissimos suscipit distinctio assumenda minima neque consequuntur molestias minus ipsa. Nobis perspiciatis dolor, placeat eius quisquam culpa nihil ipsam saepe, quibusdam neque consequatur.
           </p>
-          <div>
-            <button>Comprar agora</button>
-            <button>Adicionar ao carrinho</button>
+          <div class="buttons">
+            <button class="comprar">Comprar agora</button>
+            <button class="detalhesBtn">Adicionar ao carrinho</button>
           </div>
         </div>
       </div>
     </section>
-    <section class="bgThyrd">
-      <div>
+    <section class="brThyrd numbers">
+      <div class="account">
         <h3>500+</h3>
         <p>Lorem ipsum dolor sit.</p>
       </div>
-      <div>
+      <div class="account">
         <h3>500+</h3>
         <p>Lorem ipsum dolor sit.</p>
       </div>
-      <div>
+      <div class="account">
         <h3>500+</h3>
         <p>Lorem ipsum dolor sit.</p>
       </div>
     </section>
+
+    <section class='footer'>
+      <div class='social'>
+        <!-- redes sociais -->
+        <h3>wildling</h3>
+        <p>Sufficient particular impossible by reasonable oh expression is. Yet preference unpleasant.</p>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-github-square" aria-hidden="true"></i>
+      </div>
+      <div class="footerItens">
+        <!-- menus de links -->
+        <div class="footerMenu">
+          <h3>Menu</h3>
+          <p>Donations</p>
+          <p>Features</p>
+          <p>Category</p>
+          <p>Volunteer</p>
+          <p>About Us</p>
+        </div>
+        <div class="footerMenu">
+          <h3>Categories</h3>
+          <p>Healthy Food</p>
+          <p>Education</p>
+          <p>Clean Water</p>
+          <p>Medical Help</p>
+        </div>
+        <div class="footerMenu">
+          <h3>About us</h3>
+          <p>Who are you?</p>
+          <p>Contact Us</p>
+          <p>FAQ</p>
+          <p>Help</p>
+        </div>
+      </div>
+    </section>
+    <hr>
     <footer>
-      <p>Copyright: Wildling - Todos os direitos reservados </p>
+      <p>Copyright: Wildling - Todos os direitos reservados</p>
     </footer>
 
     <script src="./js/script.js"></script>
   </body>
 </html>
-        <!-- TITULOS/muda as fontes -->
-        <!-- <h1>oi</h1> -->
-        <!-- <h2>oi</h2> -->
-        <!-- <h3>oi</h3> -->
-        <!-- <h4>oi</h4> -->
-        <!-- <h5>oi</h5> -->
-        <!-- <h6>oi</h6> -->
-        <!-- cria um paragrafo -->
-        <!-- <p>Paragrafo</p> -->
-        <!-- leva até um link -->
-        <!-- <a href="https://www.youtube.com/watch?v=5GJWxDKyk3A">Billie Eilish</a> -->
-        <!-- texto generico -->
-        <!-- <span>Musica foda</span> -->
-    
