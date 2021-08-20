@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedool</title>
+    <!-- ----Inseri o Bootstrap no meu código----- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- --------relacionando o style no index------ -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light container navbarcolor sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" height="30" alt="" loading="lazy">
+          </a>        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- ----------Inseri uma NAVBAR que foi pega na doc do bootstrap ----------- -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto centralizar-links">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn buttonnavbar my-2 my-sm-0" type="submit">Get Started</button>
+          </form>
+        </div>
+      </nav>
+
+      <!-- agora vou inserir um container pra deixar organizado o site -->
+      <section class="container">
+
+      <!-- criei uma div row pra inserir os conteudos de forma organizada e depois fiz a divisao das colunas 8 para direita e 4 para esquerda-->
+      <div class="row navbarcolor">
+          <div class="col-md-4 callbox">
+            <h1>Lorem <br> ipsum dolor <br> sit <span>amet</span> </h1>
+              <h3 class="mt-3 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsam.</h3>
+              <!-- coloquei um botao -->
+              <button type="button" class="btn buttonnavbar mb-3">Primary</button>
+              <img src="./img/logos.jpg" alt="logos de empresas">
+          </div>
+        <div class="col-md-8">
+            <img src="./img/imagem-1.jpg" alt="" width="100%">
+        </div>
+      </div>
+      <div class="text-center my-5">
+          <span class="features">features</span>
+          <!-- delacrei uma class my-4 pra dar espacamento igual -->
+          <h4 class="my-4">Lorem, ipsum dolor.</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Fugiat libero qui mollitia facilis maxime culpa reiciendis nobis dolorem!</p>
+      </div>
+      <!-- vou dividir cards pela tela -->
+      <div class="row my-5">
+          <!-- uso o comando .div-md-3*4 para criar 3 com 4 e insiro os cards nas divs col md 3 -->
+          <div class="col-md-3">
+            <div class="d-flex flex-column">
+                <img src="./img/icon-1.jpg" alt="icone 1" height="auto" class="align-self-center mb-3">
+                <h5 class="text-center mb-4">Lorem, ipsum dolor.</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam omnis</p>
+            </div>  
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-column">
+                <img src="./img/icon-2.jpg" alt="icone 1" height="auto" class="align-self-center mb-3">
+                <h5 class="text-center mb-4">Lorem, ipsum dolor.</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam omnis</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-column">
+                <img src="./img/icon-3.jpg" alt="icone 1" height="auto" class="align-self-center mb-3">
+                <h5 class="text-center mb-4">Lorem, ipsum dolor.</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam omnis</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="d-flex flex-column">
+                <img src="./img/icon-4.jpg" alt="icone 1" height="auto" class="align-self-center mb-3">
+                <h5 class="text-center mb-4">Lorem, ipsum dolor.</h5>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam omnis</p>
+            </div>
+          </div>
+      </div>
+      <!-- dando distancia da foto para o texto  -->
+      <div class="row pictext rowspictext">
+          <div class="col-md-6">
+            <img src="./img/celular.jpg" alt="">
+          </div>
+          <div class="col-md-6 spacetext">
+            <h2>Lorem ipsum dolor <br> sit amet consectetur adipisicing <br> elit. Quos, eum?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates <br> enim architecto ex neque, suscipit voluptatibus ullam modi sequi!</p>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <br>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            <br>
+            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-6">
+              <h2>Lorem ipsum dolor <br> sit amet consectetur adipisicing <br> elit. Quos, eum?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates <br> enim architecto ex neque, suscipit voluptatibus ullam modi sequi!</p>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+              <br>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+              <br>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/skeleton.jpg" alt="" height="300">
+            </div>
+        </div>
+        <!-- dando espaco com a rowspictext e pic text -->
+        <div class="row pictext rowspictext">
+            <div class="col-md-6 spacetext">
+              <img src="./img/celular-2.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+              <h2>Lorem ipsum dolor <br> sit amet consectetur adipisicing <br> elit. Quos, eum?</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates <br> enim architecto ex neque, suscipit voluptatibus ullam modi sequi!</p>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+              <br>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+              <br>
+              <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+            </div>
+        </div>
+      
+
+
+    </section>
+
+      <!-- -------------inseri o JAVA SCRIPT no codigo-------- -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

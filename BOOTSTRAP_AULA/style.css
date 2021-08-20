@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+/* mudando meus 'a' (links) que é o que ta declarado na Navbar */
+a {
+    font-family:'Poppins', sans-serif;
+    color: #372a25;
+    font-size: 1.0rem;
+}
+/* mudando as tags P  */
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #9d9f9e;
+    font-size: 1rem
+}
+/* mudando os h1s */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000002;
+    font-size: 3.2rem;
+}
+/* mudando o span que delcarei no h1  */
+h1 span {
+    color: #f99c80;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #9d9f9e;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000002;
+    font-size: 1.8rem;
+}
+/* declarar meu h5 */
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #000002;
+    font-size: 1.1rem; 
+}
+/* -------delcarei um centralizar para deixar minha nav bar centralizada e inseri essa classe na UL------- */
+.centralizar-links {
+    margin: 0 auto;        /*falando pro meu codigo q essa classe tenha uma margem de 0 pra cima e pra baixo e fique auto dos lados*/
+}
+
+/* -------Inseri um container na navbar pra deixar meu site com as bordas no lados--------- */
+/* coloquei um sticky-top pra deixar minha nav bar sempre mostrando */
+/* -------Escolhi um logo e inseri ele na navbar brand e depois mudei seu tamanho tirando a altura e deixando so a largura como auto------- */
+
+/* mudando a cor da nav bar  */
+
+.navbarcolor {
+    background-color:#fff0e9;
+}
+
+/* mudando o botao get started */
+.buttonnavbar {
+    background-color: #f99c80;
+    color: #fff3e6;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.buttonnavbar:hover {
+    color: #fff3e6;
+    background-color: #ff7d56;
+    transition: 0.2s;
+}
+/* Dando espacamento no meu titulo grande, criei uma callbox la na div do h1  */
+.callbox {
+    padding-top: 5rem;
+}
+/* mudando a cor do features (linha do site) */
+.features {
+    background-color: #fff0e9;
+    color: #daaa9d;
+    padding: 5px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family:'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.pictext {
+    margin-top: 8rem;
+}
+.rowspictext {
+    margin-bottom: 8rem;
+}
+.rowspictext {
+    padding-top: 4rem;
+}
