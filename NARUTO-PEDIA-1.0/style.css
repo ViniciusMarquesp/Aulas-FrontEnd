@@ -1,38 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap');
 
 a {
-    text-decoration: none;
-    color: #f2a30b;
+  text-decoration: none;
+  color: #f2a30b;
 }
 
 a:hover {
-    font-weight: bold;
-    color: #0c2fdf;
-  }
+  font-weight: bold;
+  color: #0c2fdf;
+}
 
-  h1 {
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 40px;
-  }
+h1 {
+  font-family: "Permanent Marker", cursive;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
+  text-align: center;
+}
 
 .menu {
-    display: flex;
-    justify-content: space-between;
-    width: 35%;
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    font-family: 'Permanent Marker', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-family: "Permanent Marker", cursive;
 }
 
-#myBtn{
-    cursor: pointer;
-  }
-.tamanhocarousel {
-    height: 900px;
-    overflow: hidden;
+#myBtn {
+  cursor: pointer;
 }
+.tamanhocarousel {
+  height: 900px;
+  overflow: hidden;
+}
+
+.centralizar {
+  text-align: center;
+}
+
+.centralizarp {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mt {
+  margin-top: 2rem;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
+
